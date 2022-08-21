@@ -18,6 +18,8 @@
     </head>
 
     <body>
+
+    <?php foreach($model->rows as $item) ?>
         
         <div class="interface">
 
@@ -25,7 +27,7 @@
 
                 <div id="carta">
 
-                    <img src="View/Modules/Images/Baralhos/Yugi_Muto/Mago_Negro.jpg">
+                    <img src="<?php $item->link_imagem_carta ?>">
 
                 </div>
 
@@ -43,7 +45,7 @@
 
                 <div id="definicao">
 
-                    <p> Mago Negro (ブラック・マジシャン Burakku Majishan; lit. Black Magician) é um dos personagens da série Yu-Gi-Oh! e a carta assinatura de Monstros de Duelo de Yugi. </p>
+                    <p> <?php $item->descricao_carta ?> </p>
 
                 </div>
 
@@ -57,13 +59,13 @@
 
                     <div id="pessoa">
 
-                        <img src="View/Modules/Images/Portadores/Yugi_Muto.png" alt="">
+                        <img src="<?php $item->link_imagem_portador ?>" alt="<?php $item->nome_portador ?>">
 
                     </div>
 
                     <div id="nome_pessoa">
 
-                        <p> Yugi Muto </p>
+                        <p> <?php $item->nome_portador ?> </p>
 
                     </div>
 
