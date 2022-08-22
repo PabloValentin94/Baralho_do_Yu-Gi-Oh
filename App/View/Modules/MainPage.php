@@ -27,7 +27,7 @@
 
                 <div id="carta">
 
-                    <img src="<?php $item->link_imagem_carta ?>">
+                    <img src="">
 
                 </div>
 
@@ -45,7 +45,7 @@
 
                 <div id="definicao">
 
-                    <p> <?php $item->descricao_carta ?> </p>
+                    <p name="">  </p>
 
                 </div>
 
@@ -59,13 +59,13 @@
 
                     <div id="pessoa">
 
-                        <img src="<?php $item->link_imagem_portador ?>" alt="<?php $item->nome_portador ?>">
+                        <img src="" alt="">
 
                     </div>
 
                     <div id="nome_pessoa">
 
-                        <p> <?php $item->nome_portador ?> </p>
+                        <p>  </p>
 
                     </div>
 
