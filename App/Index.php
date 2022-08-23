@@ -9,7 +9,7 @@ switch($url)
 
   case "/":
 
-    MainPageController::Change_Card();
+    MainPageController::Index();
 
   break;
 
