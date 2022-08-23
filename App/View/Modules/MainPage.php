@@ -18,8 +18,6 @@
     </head>
 
     <body>
-
-    <?php foreach($model->rows as $item) ?>
         
         <div class="interface">
 
@@ -27,7 +25,7 @@
 
                 <div id="carta">
 
-                    <img src="">
+                    <img src="View/Modules/Images/Baralhos/Yugi_Muto/Mago_Negro.jpg">
 
                 </div>
 
@@ -45,7 +43,7 @@
 
                 <div id="definicao">
 
-                    <p>  </p>
+                    <p> Mago Negro é um dos personagens da série Yu-Gi-Oh! e a carta assinatura de Monstros de Duelo de Yugi. </p>
 
                 </div>
 
@@ -59,7 +57,7 @@
 
                     <div id="pessoa">
 
-                        <img src="" alt="">
+                        <img src="View/Modules/Images/Portadores/Yugi_Muto.png" alt="">
 
                     </div>
 

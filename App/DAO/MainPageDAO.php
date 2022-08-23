@@ -8,7 +8,7 @@ class MainPageDAO
     public function __construct()
     {
 
-        $dsn = "mysql:host=localhost:3306;dbname=db_yu-gi-oh";
+        $dsn = "mysql:host=localhost:3307;dbname=db_yu-gi-oh";
 
         $this->conexao = new PDO($dsn,"root","etecjau");
         
@@ -17,7 +17,7 @@ class MainPageDAO
     public function Select()
     {
 
-        
+        $sql = "SELECT * FROM Agrupar_Tabelas";
 
     }
     
