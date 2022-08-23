@@ -13,6 +13,12 @@ switch($url)
 
   break;
 
+  /*case "/save":
+
+    MainPageController::Search();
+
+  break;*/
+
   default:
 
     echo "error 404";

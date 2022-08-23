@@ -14,12 +14,14 @@ class MainPageDAO
         
     }
 
-    public function Select()
+    public function SelectByID(int $id)
     {
 
-        $sql = "SELECT * FROM agrupar_tabelas";
+        $sql = "SELECT * FROM agrupar_tabelas WHERE id = ?";
 
         $stmt = $this->conexao->prepare($sql);
+
+        $stmt->bindValue(1, $id);
 
         $stmt->execute();
 

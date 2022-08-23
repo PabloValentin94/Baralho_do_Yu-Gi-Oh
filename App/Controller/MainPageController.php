@@ -10,7 +10,16 @@ class MainPageController
 
         $model = new MainPageModel;
 
-        $model->GetAllRows();
+        $model->GetByID(1);
+
+        include "View/Modules/MainPage.php";
+
+    }
+
+    static public function Proxima_Carta()
+    {
+
+        
 
     }
 

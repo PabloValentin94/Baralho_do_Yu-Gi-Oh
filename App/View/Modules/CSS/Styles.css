@@ -49,16 +49,24 @@ body {
 
 }
 
-.botoes {
+.form {
 
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   margin-top: 5%;
 
 }
 
-#botao {
+.botoes {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#botao_anterior, #botao_proxima {
 
   border: 1px solid #FFFFFF;
   background-color: #008000;
@@ -67,8 +75,8 @@ body {
   font-size: 15px;
   border-radius: 5px;
   padding: 5px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 
 }
 

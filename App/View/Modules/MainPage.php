@@ -21,55 +21,59 @@
         
         <div class="interface">
 
-            <div class="alternar_carta">
+            <?php foreach($model->rows as $item): ?>
 
-                <div id="carta">
+                <div class="alternar_carta">
 
-                    <img src="View/Modules/Images/Baralhos/Yugi_Muto/Mago_Negro.jpg">
+                    <div id="carta">
 
-                </div>
-
-                <div class="botoes">
-
-                    <button id="botao"> Anterior </button>
-
-                    <button id="botao"> Próxima </button>
-
-                </div>
-
-            </div>
-
-            <div class="informacoes">
-
-                <div id="definicao">
-
-                    <p> Mago Negro é um dos personagens da série Yu-Gi-Oh! e a carta assinatura de Monstros de Duelo de Yugi. </p>
-
-                </div>
-
-                <div id="titulo">
-
-                    <p> Portador da Carta: </p>
-
-                </div>
-
-                <div class="portador">
-
-                    <div id="pessoa">
-
-                        <img src="View/Modules/Images/Portadores/Yugi_Muto.png" alt="">
+                        <img src="<?=$item->link_imagem_carta?>" alt="<?=$item->nome_carta?>">
 
                     </div>
 
-                    <div id="nome_pessoa">
+                    <div class="botoes">
 
-                        <p>  </p>
+                        <button id="botao_anterior" type="submit"> Anterior </button>
+
+                        <button id="botao_proxima" type="submit"> Próxima </button>
 
                     </div>
 
                 </div>
 
-            </div>
+                <div class="informacoes">
+
+                    <div id="definicao">
+
+                        <p> <?= $item->descricao_carta ?> </p>
+
+                    </div>
+
+                    <div id="titulo">
+
+                        <p> Portador da Carta: </p>
+
+                    </div>
+
+                    <div class="portador">
+
+                        <div id="pessoa">
+
+                            <img src="<?= $item->link_imagem_portador ?>" alt="<?= $item->nome_portador ?>">
+
+                        </div>
+
+                        <div id="nome_pessoa">
+
+                            <p> <?= $item->nome_portador ?> </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            <?php endforeach ?>
 
         </div>
         
