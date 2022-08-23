@@ -6,7 +6,11 @@ class MainPageController
     static public function Index()
     {
 
-        include "View/Modules/MainPage.php";
+        include "Model/MainPageModel.php";
+
+        $model = new MainPageModel;
+
+        $model->GetAllRows();
 
     }
 
