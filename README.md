@@ -1,4 +1,4 @@
-## Cartas de Yu-gi-oh:
+## Cartas de Yu-Gi-Oh:
 
 Yu-Gi-Oh! é uma franquia muito popular entre as crianças, sua história é baseada em um universo onde os personagens desafiam uns aos outros em um estratégico jogo de cards para conquistar honra, resolver disputas e até proteger seus entes queridos.
 
