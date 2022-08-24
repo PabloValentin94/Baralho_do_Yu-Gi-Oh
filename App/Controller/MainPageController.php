@@ -8,7 +8,7 @@ class MainPageController
 
         include "Model/MainPageModel.php";
 
-        $model = new MainPageModel;
+        $model = new MainPageModel();
 
         $model->GetByID($model->id);
 
