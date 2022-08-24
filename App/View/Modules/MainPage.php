@@ -31,11 +31,19 @@
 
                     </div>
 
-                    <div class="botoes">
+                    <div class="form">
 
-                        <button id="botao_anterior" type="submit"> Anterior </button>
+                        <form method="post" action="/search">
 
-                        <button id="botao_proxima" type="submit"> Próxima </button>
+                            <legend id="" style="color: #FFFFFF;"> Escolha Uma das Cartas Disponíveis: </legend>
+
+                            <br/>
+
+                            <input id="id_carta" name="id_carta" type="number">
+
+                            <button id="botao" type="submit"> Procurar </button>
+
+                        </form>
 
                     </div>
 

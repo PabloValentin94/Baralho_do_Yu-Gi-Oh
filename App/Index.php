@@ -13,11 +13,11 @@ switch($url)
 
   break;
 
-  /*case "/save":
+  case "/search":
 
     MainPageController::Search();
 
-  break;*/
+  break;
 
   default:
 

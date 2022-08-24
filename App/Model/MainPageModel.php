@@ -3,6 +3,8 @@
 class MainPageModel
 {
 
+    public $id = 1;
+
     public $rows;
 
     public function GetByID(int $id)
@@ -25,6 +27,19 @@ class MainPageModel
             var_dump($dados->link_imagem_portador);
 
         }*/
+
+        //var_dump($this->rows);
+
+    }
+
+    public function Search(int $id)
+    {
+
+        include "DAO/MainPageDAO.php";
+
+        $dao = new MainPageDAO();
+
+        $this->rows = $dao->SelectByID($id);
 
         //var_dump($this->rows);
 

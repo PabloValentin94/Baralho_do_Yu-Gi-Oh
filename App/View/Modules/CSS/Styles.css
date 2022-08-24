@@ -49,15 +49,6 @@ body {
 
 }
 
-.form {
-
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-
-}
-
 .botoes {
 
   display: flex;
@@ -66,17 +57,44 @@ body {
 
 }
 
-#botao_anterior, #botao_proxima {
+form {
+
+  margin-top: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  color: #FFFFFF;
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+legend {
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+input {
+
+  font-size: 15px;
+  float: left;
+  width: 75%;
+
+}
+
+#botao {
 
   border: 1px solid #FFFFFF;
   background-color: #008000;
   color: #FFFFFF;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 10px;
   border-radius: 5px;
   padding: 5px;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  float: right;
+  width: 20%;
 
 }
 
