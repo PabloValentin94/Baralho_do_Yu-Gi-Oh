@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
+  background-image: linear-gradient(#000000, #C3C800, #899400, #FFFF00, #000000);
 
 }
 
@@ -25,6 +25,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1%;
+  background-color: #000000;
+  border: 2px solid #FFFFFF;
+  border-radius: 1%;
+  box-shadow: 10px 10px 10px #808080;
 
 }
 
@@ -129,6 +133,7 @@ input {
   justify-content: center;
   align-items: center;
   padding: 1%;
+  margin-top: 5%;
 
 }
 

@@ -83,6 +83,12 @@
 
             <?php endforeach ?>
 
+            <?php if(count($model->rows) == 0): ?>
+
+                
+
+            <?php endif ?>
+
         </div>
         
     </body>
