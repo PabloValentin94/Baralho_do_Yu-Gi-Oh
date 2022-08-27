@@ -85,7 +85,11 @@
 
             <?php if(count($model->rows) == 0): ?>
 
-                
+                <div id="no_rows">
+
+                    <p> Nenhum registro encontrado no sistema! </p>
+
+                </div>
 
             <?php endif ?>
 
