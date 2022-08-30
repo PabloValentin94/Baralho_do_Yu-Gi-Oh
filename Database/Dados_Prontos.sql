@@ -24,6 +24,14 @@ Values("Dragão Negro de Olhos Vermelhos",
 "View/Modules/Images/Baralhos/Joe_Wheeler/Dragao_Negro_de_Olhos_Vermelhos.jpg", 
 3);
 
+Insert Into portador(nome_portador, link_imagem_portador) Values("Mai Valentine", "View/Modules/Images/Portadores/Mai_Valentine.png");
+
+Insert Into Carta(nome_carta, descricao_carta, link_imagem_carta, fk_portador) 
+Values("Harpia", 
+"Harpia é uma das personagens da série Yu-Gi-Oh! e a carta assinatura de Monstros de Duelo de Mai.", 
+"View/Modules/Images/Baralhos/Mai_Valentine/Harpia.jpg", 
+4);
+
 -- Visualização:
 
 Select * From agrupar_tabelas;
