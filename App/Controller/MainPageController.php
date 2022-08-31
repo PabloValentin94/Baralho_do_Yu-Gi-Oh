@@ -23,7 +23,9 @@ class MainPageController
 
         $model = new MainPageModel();
 
-        $model->id = $_POST['id_carta'];
+        //$model->id = $_POST['id_carta'];
+
+        $model->id = $_POST['valor_botao'];
 
         $model->Search($model->id);
 

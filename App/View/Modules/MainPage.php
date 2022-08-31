@@ -33,7 +33,7 @@
 
                     <div class="form">
 
-                        <form method="post" action="/search">
+                        <!--<form method="post" action="/search">
 
                             <legend id="" style="color: #FFFFFF;"> Escolha Uma das Cartas Disponíveis: </legend>
 
@@ -42,6 +42,14 @@
                             <input id="id_carta" name="id_carta" type="number">
 
                             <button id="botao" type="submit"> Procurar </button>
+
+                        </form>-->
+
+                        <form method="post" action="/search">
+
+                            <button id="botao_anterior" name="valor_botao" value="<?= $item->id - 1 ?>" type="submit"> Anterior </button>
+
+                            <button id="botao_proxima" name="valor_botao" value="<?= $item->id + 1 ?>" type="submit"> Próxima </button>
 
                         </form>
 
@@ -87,7 +95,7 @@
 
                 <div id="no_rows">
 
-                    <p> Nenhum registro encontrado no sistema! </p>
+                    <p> Registro não encontrado no sistema! </p>
 
                 </div>
 
