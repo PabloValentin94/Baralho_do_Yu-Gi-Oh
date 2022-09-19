@@ -1,5 +1,13 @@
 <?php
 
+// Namespace ao qual este arquivo pertence.
+
+namespace App\Model;
+
+// Namespaces que serão usados neste arquivo.
+
+use App\DAO\MainPageDAO;
+
 class MainPageModel
 {
 

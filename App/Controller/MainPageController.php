@@ -1,5 +1,13 @@
 <?php
 
+// Namespace ao qual este arquivo pertence.
+
+namespace App\Controller;
+
+// Namespaces que serão usados neste arquivo.
+
+use App\Model\MainPageModel;
+
 class MainPageController
 {
 
