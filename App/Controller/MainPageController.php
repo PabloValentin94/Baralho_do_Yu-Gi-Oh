@@ -35,7 +35,7 @@ class MainPageController
 
         $model->id = $_POST['valor_botao'];
 
-        $model->Search($model->id);
+        $model->GetByID($model->id);
 
         //var_dump($model->id);
 

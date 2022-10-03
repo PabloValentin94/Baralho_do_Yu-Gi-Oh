@@ -40,6 +40,7 @@ class MainPageModel
 
     }
 
+    /*
     public function Search(int $id)
     {
 
@@ -52,6 +53,7 @@ class MainPageModel
         //var_dump($this->rows);
 
     }
+    */
     
 }
 
